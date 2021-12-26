@@ -4,8 +4,7 @@
 1. **Location** - Gdansk, Poland
 2. **Phone** - +48 785 352 189
 3. **E-mail** - [syona89@gmail.com](syona89@gmail.com)
-4. **GitHub** - [rishairishka](https://vk.com/away.php?to=https%3A%2F%2Fgithub.com%2Frishairishka%2Frsschool-cv&el=snippet)
-************************************
+4. **GitHub** - [rishairishka](https://github.com/rishairishka)
 ## About me:
 I am 32 years old, I am a teacher of music disciplines, I decided to change my field of activity and try myself in programming, because it is a more promising type of activity and interesting for development. This is a completely new experience for me, I recently moved to another country and decided to try to start from scratch.
 ## My strenghts:
@@ -14,12 +13,10 @@ I am 32 years old, I am a teacher of music disciplines, I decided to change my f
 * responsibility
 * diligence
 * purposefulness
-************************************
 ## Skills:
 1. HTML5
 2. CSS3
 3. Git, GitHub
-************************************
 ## Code examples:
 ```
 function digPow(n, p){
@@ -31,10 +28,8 @@ function digPow(n, p){
   return temp % n == 0 ? temp / n : -1;
 }
 ```
-************************************
 ## Education:
 * Belorussian State Academy of Music, Minsk 2014
-* Courses: [RS-SCHOOL stage 0](https://vk.com/away.php?to=https%3A%2F%2Fgithub.com%2Frolling-scopes-school%2Ftasks%2Ftree%2Fmaster%2Fstage0&el=snippet)
-************************************
+* Courses: [RS-SCHOOL stage 0](https://github.com/rolling-scopes-school/tasks/tree/master/stage0)
 ## English level:
 A2 (practising in new country)
