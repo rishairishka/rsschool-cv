@@ -10,3 +10,7 @@ hr {
     border-width: 0;
     height: 1px;
 }
+.avatar {
+    width: 220px;
+    height: 300px;
+}
