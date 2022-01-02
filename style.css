@@ -1,16 +1,144 @@
-body {
-    width: 900px;
-    margin: 0 auto;
-    font-family: Verdana, sans-serif;
-    background-color: #FAACA8;
-    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto/Roboto-Regular.ttf");
 }
+
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url("assets/fonts/Roboto/Roboto-Italic.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-container {
+    width: 50%;
+}
+
+.section {
+    margin-bottom: 16px;
+}
+
+.section ul {
+    padding-left: 20px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 11px;
+    color: steelblue;
+    text-decoration: underline;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    position: relative;
+    color: black;
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: steelblue
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: -5px;
+    width: calc(100% - 20px);
+    height: 1px;
+    background-color: steelblue;
+    opacity: 0;
+    transition: .5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Roboto-Italic';
+}
+
 hr {
     background-color: rgb(255, 255, 255);
     border-width: 0;
     height: 1px;
 }
+
 .avatar {
+    cursor: pointer;
     width: 220px;
     height: 300px;
+}
+
+.course-link {
+    width: 120px;
+    height: 40px;
+}
+
+.footer {
+    background-color: blanchedalmond;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
 }
